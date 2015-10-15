@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+/ css:  
+style type="text/css"
+  == \$body + \$table + \$td + \$img + \$a + \$ReadMsgBody + \$ExternalClass
+  | .db{display: block;}
+  | .altlogo{font-size: 48px; font-weight: bold; color: #932725;}
+  | .altgift{font-size: 28px; font-weight: bold; color: #5B594F;}
+  | .altcat{text-align: right; line-height: 76px; font-size: 18px; font-weight: normal; font-style: italic; color: #222222;}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>slimcss</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.slim</scope>
+</snippet>

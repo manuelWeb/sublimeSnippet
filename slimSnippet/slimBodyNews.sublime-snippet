@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+link="#333333" vlink="#F96107" style="margin: 0; padding: 0; background-color= #FFFFFF;"
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>slimBodyNews</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.slim</scope>
+</snippet>

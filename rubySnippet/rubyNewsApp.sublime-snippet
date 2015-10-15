@@ -1,0 +1,72 @@
+<snippet>
+  <content><![CDATA[
+require 'slim'
+require 'premailer'
+require 'htmlbeautifier'
+Slim::Engine.set_options pretty: true
+project="TH15_FAT-AL"
+
+class Slimed
+  attr_accessor :src, :out, :path
+  def initialize(src,out,path)
+    @src = src
+    @out = out
+    @path = path
+  end
+  
+  def tohtml
+    # puts path+src # puts out # puts s2h.render
+    srcfile = File.open(path+src, "rb").read
+    s2h = Slim::Template.new{srcfile}
+    htmlrender = s2h.render  
+    
+    # ecriture du fichier out = Slimed.new(src,**out**)
+    File.open(path+out, "w") do |go|
+      go.puts htmlrender
+    end
+
+    # init class Premailer > ouverure out en ecriture > traitement premailer+beautify > eciture dans out
+    premailer = Premailer.new(path+out)
+    File.open(path+out, "w") do |file|
+      # remove  data-premailer="ignore"
+      premailer = premailer.to_inline_css
+      beautiful = HtmlBeautifier.beautify(premailer, tab_stops: 2)
+      file.puts beautiful.gsub(' data-premailer="ignore"','')
+    end
+  end
+
+  def toOnline(project)
+    # src="http://www.webdesignord.fr/images/
+    source = File.read(path+project+".html").gsub('src="images/','src="http://www.webdesignord.fr/images_/')
+    dest = File.open(path+project+"_online.html", "w")
+    dest << source
+    dest.close    
+  end
+end
+
+bf = Slimed.new(project+'.slim', project+'.html', 'BF/')
+bv = Slimed.new(project+'.slim', project+'.html', 'BV/')
+de = Slimed.new(project+'.slim', project+'.html', 'DE/')
+fr = Slimed.new(project+'.slim', project+'.html', 'FR/')
+nl = Slimed.new(project+'.slim', project+'.html', 'NL/')
+uk = Slimed.new(project+'.slim', project+'.html', 'UK/')
+# news compilées :
+# bf.tohtml
+# bv.tohtml
+# de.tohtml
+fr.tohtml
+# nl.tohtml
+# uk.tohtml
+# news alt && || toOnline 'src="http://www.webdesignord.fr/domoti/img/images/'
+# bf.toOnline(project)
+# bv.toOnline(project)
+# de.toOnline(project)
+fr.toOnline(project)
+# nl.toOnline(project)
+# uk.toOnline(project)
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>rubyNewsApp</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.ruby</scope>
+</snippet>

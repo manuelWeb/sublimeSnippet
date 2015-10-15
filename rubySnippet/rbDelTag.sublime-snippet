@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+# delete header style tag
+src = File.read("src.html").gsub(/^\s*<style\s.+(\n+\s+.+)\D+?<\/style>/,'')
+dest = File.open("src.html", "w")
+dest << src  
+dest.close
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>rbDelTag</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.ruby</scope>
+</snippet>

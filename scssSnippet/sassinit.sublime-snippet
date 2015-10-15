@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+@import "compass/css3";
+@import "compass/support";
+\$debug-browser-support: true;
+\$ftss: Arial, Helvetica, sans-serif;
+\$fts: Georgia, Times, "Times New Roman", serif;
+\$primary-color: #922625;
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>sassinit</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.scss, source.sass</scope>
+</snippet>

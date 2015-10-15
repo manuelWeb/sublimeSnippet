@@ -1,0 +1,13 @@
+[
+	//{ "keys": ["ctrl+shift+m"], "command": "expand_selection"},
+	{ "keys": ["ctrl+alt+a"], "command": "alignment" },
+	{ "keys": ["ctrl+shift+v"], "command": "paste_and_indent" },
+	{ "keys": ["ctrl+shift+alt+,"], "command": "indent" },
+	{ "keys": ["ctrl+shift+,"], "command": "unindent" },
+	{ "keys": ["ctrl+shift+e"], "command": "html_entitize" },
+	{ "keys": ["ctrl+u"], "command": "upper_case" },
+	{ "keys": ["ctrl+l"], "command": "lower_case" },
+	{ "keys": ["ctrl+shift+r"], "command": "reindent"},
+	{ "keys": ["ctrl+alt+t", "ctrl+t"], "command": "google_translate_selection" },
+	{ "keys": [ "f12" ], "command": "view_in_browser" }
+]

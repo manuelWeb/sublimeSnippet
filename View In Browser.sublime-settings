@@ -1,0 +1,9 @@
+{
+  "nt": {
+    "win32": {
+      "firefox": "C:\\Program Files (x86)\\Firefox Developer Edition\\firefox.exe -new-tab"
+    }
+  },
+
+  "browser": "firefox"
+}

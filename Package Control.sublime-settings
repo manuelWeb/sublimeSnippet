@@ -1,0 +1,41 @@
+{
+	"auto_upgrade_last_run": null,
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"Autoprefixer",
+		"CodeKit",
+		"Comment-Snippets",
+		"CSScomb",
+		"CSSFontFamily",
+		"Csslisible",
+		"Dictionaries",
+		"Google Translate",
+		"HTML-CSS-JS Prettify",
+		"HTML2Haml",
+		"HTMLAttributes",
+		"HtmlTidy",
+		"JSHint",
+		"JsMinifier",
+		"Language - French - Français",
+		"LiveReload",
+		"LiveStyle",
+		"Markdown Preview",
+		"MarkdownEditing",
+		"Open-Include",
+		"Package Control",
+		"Placeholders",
+		"Ruby Slim",
+		"SassBuilder",
+		"Select By Regex",
+		"StringEncode",
+		"SublimeCodeIntel",
+		"Tag",
+		"Theme - Cobalt2",
+		"View In Browser"
+	]
+}

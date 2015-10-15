@@ -1,0 +1,29 @@
+{
+	"color_scheme": "Packages/Theme - Cobalt2/cobalt2.tmTheme",
+	"detect_slow_plugins": false,
+	"dictionary": "Packages/Language - French - Français/fr_FR.dic",
+	"ensure_newline_at_eof_on_save": false,
+	"font_size": 15.0,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"SublimeCodeIntel",
+		"Vintage"
+	],
+	"ignored_words":
+	[
+		"btn",
+		"clear",
+		"cursor",
+		"hover",
+		"href",
+		"l'evt",
+		"mouseover",
+		"yehp"
+	],
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": false,
+	"word_wrap": true
+}

@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+File.open("varglobal.slim").readlines.each do |line|
+  # puts line if line.match(/^  [A-Z]/)
+  # fct mais affiche les retour à la ligne
+  # inc = line.match(/\$monthNecks.*?([0-9])/)
+  # puts $1
+  puts $1 if line.match(/\$monthNecks.*?([0-9])/)
+end
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>rbfindline</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.ruby</scope>
+</snippet>
