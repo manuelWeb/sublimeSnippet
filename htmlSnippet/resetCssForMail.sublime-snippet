@@ -1,0 +1,30 @@
+<snippet>
+  <content><![CDATA[
+<style type="text/css">
+body {
+  margin: 0; padding: 0;
+  -webkit-text-size-adjust: none; -ms-text-size-adjust: none;
+}
+
+.ExternalClass {width: 100%; }
+
+.ExternalClass,
+.ExternalClass p, .ExternalClass div,
+.ExternalClass span, .ExternalClass font,
+.ExternalClass td {line-height: 100%; }
+
+table td {border-collapse: collapse; }
+
+p {margin: 0; padding: 0; margin-bottom: 0; }
+
+h1, h2, h3, h4, h5, h6 {color: black; line-height: 100%; }
+
+a, a:link {color: #2A5DB0; text-decoration: underline; }
+
+</style>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>resetCssForMail</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html</scope>
+</snippet>

@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+ul
+  li.pk1
+    a[href==$lnk_pk1 onclick==$ga_pk1]
+      img src="pk1.png" alt=""/
+  li.pk2
+    a[href==$lnk_pk2 onclick==$ga_pk2]
+      img src="pk2.png" alt=""/
+  li.pk3
+    a[href==$lnk_pk3 onclick==$ga_pk3]
+      img src="pk3.png" alt=""/
+  li.aPartirDe
+    img src="aPartirDe.png" alt=""/
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>listUl</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.slim</scope>
+</snippet>

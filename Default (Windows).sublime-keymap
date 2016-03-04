@@ -9,5 +9,7 @@
 	{ "keys": ["ctrl+l"], "command": "lower_case" },
 	{ "keys": ["ctrl+shift+r"], "command": "reindent"},
 	{ "keys": ["ctrl+alt+t", "ctrl+t"], "command": "google_translate_selection" },
-	{ "keys": [ "f12" ], "command": "view_in_browser" }
+	{ "keys": [ "f12" ], "command": "view_in_browser" },
+	{ "keys": ["f5"], "command": "revert" },
+	{ "keys": ["ctrl+b"], "command": "build" }
 ]

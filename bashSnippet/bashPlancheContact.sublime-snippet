@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+montage -geometry 220x220+25+25 -borderwidth 3 -bordercolor black -tile 6x4 -label "%f \n (%b)" *.png %03d.png
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>planchecontact</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html</scope>
+</snippet>

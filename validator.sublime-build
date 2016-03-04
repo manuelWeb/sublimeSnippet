@@ -1,0 +1,5 @@
+{
+   "cmd": ["python.exe", "c:\\Tools\\w3c-validator.py", "$file"],
+   "file_regex": "^validating: (.+)\\.\\.\\.",
+   "line_regex": "^error: line ([0-9]+):"
+}
