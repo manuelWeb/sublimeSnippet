@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-for i in *; do cp "C:\Users\macfly\path\banner.html" $i/banner.html; done
+for i in *; do cp "C:\Users\macfly\path\banner.html" \$i/banner.html; done
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>bashForInCpToMultiDest</tabTrigger>
