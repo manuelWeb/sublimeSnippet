@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[clearInterval(${1:myInterval})
+]]></content>
+    <tabTrigger>clear</tabTrigger>
+    <scope>source.js,source.ts</scope>
+    <description>clearInterval</description>
+</snippet>

@@ -1,9 +1,9 @@
 {
 	"color_scheme": "Packages/Theme - Cobalt2/cobalt2.tmTheme",
 	"detect_slow_plugins": false,
-	"dictionary": "Packages/Language - French - Français/fr_FR.dic",
+	"dictionary": "Packages/Language - French - Français/fr_FR (modern).dic",
 	"ensure_newline_at_eof_on_save": false,
-	"font_size": 13,
+	"font_size": 12,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -13,9 +13,11 @@
 	],
 	"ignored_words":
 	[
+		"Fireworks",
 		"btn",
 		"clear",
 		"cursor",
+		"evt",
 		"hover",
 		"href",
 		"l'evt",
