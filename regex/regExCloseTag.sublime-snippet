@@ -1,7 +1,8 @@
 <snippet>
   <content><![CDATA[
-<br(.*?[^\/]")>(.{1})
-<br\$1 />\$2
+<!-- 1-findThis \ 2-replaceBy -->
+<${1:img}(.*?[^\/]")>|<${1:img}(.*?[^\/]")\s+>
+<${1:img}\$1\$2 />
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>regExCloseTag</tabTrigger>
