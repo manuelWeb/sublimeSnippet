@@ -1,0 +1,14 @@
+<snippet>
+<content><![CDATA[
+.${1:classname} {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+]]></content>
+<tabTrigger>css_center-abs-v-h</tabTrigger>
+<description>CSS - abs vertical horizontal: center;</description>
+<scope>source.css, source.less, source.scss, source.stylus</scope>
+</snippet>

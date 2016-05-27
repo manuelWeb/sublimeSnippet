@@ -7,6 +7,7 @@
 	"installed_packages":
 	[
 		"Alignment",
+		"All Autocomplete",
 		"ApplySyntax",
 		"BracketHighlighter",
 		"CodeKit",
@@ -34,7 +35,6 @@
 		"StringEncode",
 		"SublimeCodeIntel",
 		"Syntax Highlighting for Sass",
-		"Tag",
 		"Theme - Cobalt2",
 		"View In Browser"
 	]

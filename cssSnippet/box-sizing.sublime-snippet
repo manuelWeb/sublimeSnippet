@@ -1,0 +1,14 @@
+<snippet>
+<content><![CDATA[
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+]]></content>
+<tabTrigger>css_box-sizing</tabTrigger>
+<description>CSS - box-sizing: border-box;</description>
+<scope>source.css, source.less, source.scss, source.stylus</scope>
+</snippet>
