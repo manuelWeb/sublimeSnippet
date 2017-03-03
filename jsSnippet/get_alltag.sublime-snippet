@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+function get_all(elem, attr) {
+  var elems = document.getElementsByTagName(elem);
+  for (var i = 0; i < elems.length; i++) {
+    attr == undefined ? console.log(elems[i]) : console.log(elems[i][attr]);
+  }
+}
+function get_all(elem, attr) {
+  var elems = document.getElementsByTagName(elem);
+  for (var i = 0; i < elems.length; i++) {
+    attr == undefined ? console.log(elems[i]) : console.log(elems[i].getAttribute(attr));
+  }
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>get_all-tag-and-attribut</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>

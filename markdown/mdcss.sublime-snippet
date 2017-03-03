@@ -1,9 +1,11 @@
 <snippet>
   <content><![CDATA[
-convert ${1:imgName}.png -define icon:auto-resize="256,128,96,64,48,32,16" ${1:imgName}.ico
+/* color text */
+.succes {color: #18c518; }
+.error {color: #FF0000; }
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>ico</tabTrigger>
+  <tabTrigger>mdcss</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>text.html</scope>
 </snippet>

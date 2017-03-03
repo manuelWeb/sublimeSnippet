@@ -1,0 +1,43 @@
+{
+    // Example replacements
+    "format": "3.0",
+    "replacements": {
+        // remove table suqare bracket
+        "clearFW_TableSquareBracket": {
+            "find": "table\\[(.+)\\]",
+            "replace": "table \\1",
+            "greedy": true
+        },
+        // remove table suqare bracket
+        "clearFW_ID_name": {
+            "find": "\\#.+\\[name\\=\".+?\"(.+)\\]",
+            "replace": "\\1",
+            "greedy": true
+        },
+        // change img src and alt_srcImg
+        "slim_changeImgSrc": {
+            "find": "img src\\=\"images/(.+?)\"(.+?)alt=\"\"",
+            "replace": "img src==($imgSrc+\"\\1\")\\2alt==($alt_\\1)",
+            "greedy": true
+        },
+        // cut alt img.ext
+        "slim_changeAltExt": {
+            "find": "(alt\\=\\=\\(\\$.+?)(.png|.jpg|.gif)",
+            "replace": "\\1",
+            "greedy": true
+        },
+        // slim find img var name
+        "slim_findImgVar": {
+            "find": "\\bs[1-9](.+?)(.jpg|.png|.gif)",
+            "replace": "",
+            "greedy": true,
+            "greedy_scope": true
+        },
+        // add link with buffer
+        "addLink_with_b": {
+            "find": "(.+)img src\\=\\=\\(\\$imgSrc\\+\"(.+?)(.png|.gif|.jpg)\"\\)(.+)",
+            "replace": "\\1a href==($\\2) target=\"_blank\"\n\\1  img src==($imgSrc+\"\\2\\3\")\\4",
+            "greedy": true
+        },
+    }
+}

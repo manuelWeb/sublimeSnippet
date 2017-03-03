@@ -8,7 +8,7 @@
   transform: translate(-50%, -50%);
 }
 ]]></content>
-<tabTrigger>css_center-abs-v-h</tabTrigger>
+<tabTrigger>center-abs-v-h</tabTrigger>
 <description>CSS - abs vertical horizontal: center;</description>
 <scope>source.css, source.less, source.scss, source.stylus</scope>
 </snippet>

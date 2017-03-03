@@ -1,36 +1,34 @@
 {
-	"color_scheme": "Packages/Sunrise Theme/Scheme/Sunrise.tmTheme",
+	"color_scheme": "Packages/Theme - Cobalt2/cobalt2.tmTheme",
 	"detect_slow_plugins": false,
 	"dictionary": "Packages/Language - French - Français/fr_FR (modern).dic",
 	"ensure_newline_at_eof_on_save": false,
-	"font_size": 13,
+	"font_size": 12,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"SublimeCodeIntel",
 		"Vintage"
 	],
 	"ignored_words":
 	[
+		"",
+		"",
+		"",
 		"Fireworks",
-		"alt",
 		"btn",
 		"clear",
 		"cursor",
 		"evt",
-		"footer",
 		"hover",
 		"href",
 		"l'evt",
-		"legal",
 		"mouseover",
-		"pdt",
-		"render",
 		"yehp"
 	],
 	"tab_size": 2,
-	"theme": "Sunrise.sublime-theme",
-	"translate_tabs_to_spaces": true,
+	"translate_tabs_to_spaces": false,
 	"trim_trailing_white_space_on_save": false,
 	"word_wrap": true
 }

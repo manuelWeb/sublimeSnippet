@@ -1,0 +1,39 @@
+[
+  // Clear FW square bracket, ID and name
+  {
+    "caption": "regClearFW",
+    "command": "reg_replace",
+    "args": {"replacements": ["clearFW_TableSquareBracket","clearFW_ID_name"]}
+  },
+  // change img src path
+  {
+    "caption": "Reg Replace: change images path",
+    "command": "reg_replace",
+    "args": {"replacements": ["change_img_path"]}
+  },
+  // slim chg img src
+  {
+    "caption": "Reg Replace: slimChgImgSrc",
+    "command": "reg_replace",
+    "args": {"replacements": ["slim_changeImgSrc","slim_changeAltExt"]}
+  },
+  // find slim img var
+  {
+    "caption": "slimVarImgName",
+    "command": "reg_replace",
+    "args": {
+      "replacements": ["slim_findImgVar"],
+      "find_only": true,
+      "action": "select",
+      "options": {"key": "name", "scope": "invalid", "style": "underline"}
+    },
+  },
+  // add link above all img
+  {
+    "caption": "addLinkWithBuffer",
+    "command": "reg_replace",
+    "args": {
+      "replacements": ["addLink_with_b"]
+    },
+  }
+]
