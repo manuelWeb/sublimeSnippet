@@ -3,19 +3,27 @@
   {
     "caption": "regClearFW",
     "command": "reg_replace",
-    "args": {"replacements": ["clearFW_TableSquareBracket","clearFW_ID_name"]}
+    "args": {"replacements": ["clearFW_TableSquareBracket","clearFW_TdSquareBracket","clearFW_ID_name"]}
   },
-  // change img src path
+  // Clear FW square bracket, ID and name, change img source and alt
   {
-    "caption": "Reg Replace: change images path",
+    "caption": "regClearFW_AndAddLink",
     "command": "reg_replace",
-    "args": {"replacements": ["change_img_path"]}
+    "args": {"replacements": ["clearFW_TableSquareBracket","clearFW_ID_name","slim_changeImgSrcAndAlt","slim_changeAltExt","addLink_with_b"]}
   },
   // slim chg img src
   {
     "caption": "Reg Replace: slimChgImgSrc",
     "command": "reg_replace",
-    "args": {"replacements": ["slim_changeImgSrc","slim_changeAltExt"]}
+    "args": {"replacements": ["slim_changeImgSrc"]}
+  },
+  // add link above all img
+  {
+    "caption": "addLinkWithBuffer",
+    "command": "reg_replace",
+    "args": {
+      "replacements": ["addLink_with_b"]
+    },
   },
   // find slim img var
   {
@@ -28,12 +36,4 @@
       "options": {"key": "name", "scope": "invalid", "style": "underline"}
     },
   },
-  // add link above all img
-  {
-    "caption": "addLinkWithBuffer",
-    "command": "reg_replace",
-    "args": {
-      "replacements": ["addLink_with_b"]
-    },
-  }
 ]
